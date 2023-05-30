@@ -190,3 +190,18 @@ footer{
     padding: 1rem;
     color:white;
 }
+
+/* Popup */
+.modal-content{
+    border:0 !important;
+}
+
+.modal-body .steer-btn-close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1rem;
+    background:transparent;
+    border:0;
+    color:white;
+}
