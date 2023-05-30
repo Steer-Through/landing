@@ -1,0 +1,114 @@
+:root{
+    --theme-color: #3F56F0;
+    --accent-color: #F4EFED;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar{
+    background-color: var(--theme-color);
+}
+
+/* Hero Section */
+.steer-hero{
+    height: 75vh;
+    background-color:var(--theme-color);
+}
+
+.steer-image-wrapper{
+    position: relative;
+    top: 14vh;
+}
+
+.steer-image-wrapper img{
+    width: 100%;
+}
+
+/* Company Logo */
+.steer-company{
+    background-color: var(--accent-color);
+    min-height: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.steer-company img{
+    padding: 1rem;
+    width: 150px;
+    height: auto;
+}
+
+/* Benefits */
+
+.steer-heading{
+    line-height: 2.5rem;
+    font-size: 1.9814rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.steer-icon{
+    font-size: 45px;
+    color: var(--theme-color);
+}
+
+.steer-subheading{
+    text-align: left;
+    line-height: 1.5625rem;
+    font-size: 1.2734rem;
+    color: black;
+    font-weight: 600;
+}
+
+.steer-text{
+    text-align: left;
+    line-height: 1.375rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.steer-btn{
+    width: 13rem;
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1.5rem;
+}
+
+/* Social Appreciation */
+.steer-fun-fact-wrapper {
+    padding-bottom: 30px;
+    padding-top: 60px;
+    background-color: var(--theme-color);
+}
+
+.steer-fun-fact-item {
+    transform: translateY(0px);
+}
+
+.steer-fun-fact {
+    margin-bottom: 30px;
+}
+
+.steer-fun-fact .fun-fact__count {
+    font-size: 56px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.steer-fun-fact .fun-fact__text {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 2px;
+}
