@@ -145,12 +145,35 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <button class="btn btn-primary btn-sm steer-btn">Start your free trial</button>
+                <button class="btn btn-primary btn-sm steer-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Start your free trial</button>
             </div>
         </div>
     </section>
 
-
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-primary">
+        <div class="modal-body">
+            <button type="button" class="steer-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-circle-fill"></i></button>
+            <h3 class="steer-subheading text-white text-center">Looking out for a free trial!</h3>
+            <div class="p-4">
+                <form action="">
+                            <input type="text" class="form-control mb-3" placeholder="Your Name">
+                        
+                            <input type="text" class="form-control mb-3" placeholder="Email Address">
+                        
+                            <input type="text" class="form-control mb-3" placeholder="Mobile Number">
+                       
+                            <input type="text" class="form-control mb-3" placeholder="Company Name">                    
+                    <input type="submit" class="form-control bg-white mt-3">
+                </form>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- Social Appreciation -->
     <section class="steer-fun-fact-wrapper">
         <div class="container">
