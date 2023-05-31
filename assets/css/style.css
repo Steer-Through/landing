@@ -17,13 +17,20 @@ body{
 
 /* Hero Section */
 .steer-hero{
-    height: 75vh;
+    min-height: 45vh;
     background-color:var(--theme-color);
 }
 
 .steer-image-wrapper{
-    position: relative;
-    top: 14vh;
+    display: flex;
+    min-height: 60vh;
+    align-items:flex-end;
+}
+
+.steer-caption{
+    display: flex;
+    min-height: 60vh;
+    align-items:center;
 }
 
 .steer-image-wrapper img{
@@ -51,12 +58,92 @@ body{
 }
 
 .steer-hero p{
-    color: white!important;
+    color: white;
     line-height: calc(1em + 8px);
-    font-size: 0.9rem!important;
-    font-weight: 500!important;
-    text-align: left!important;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: left;
     margin: 1.5rem 0;
+}
+
+.steer-hero .bi-shield-fill-check{
+    color: #06f506;
+    font-size: 1rem;
+}
+
+.steer-response{
+    min-height: 80px;
+}
+
+.steer-response-modal{
+    min-height: 25px;
+}
+
+.steer-success{
+    font-size: 0.85rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 1rem auto;
+    width: 70%;
+    background:rgba(255,255,255,0.2);
+    padding: 0.5rem 1rem;
+    border-radius:0.5rem;
+}
+
+@media (max-width:540px) {
+    .steer-caption{
+        display: flex;
+        min-height: 45vh;
+        align-items:center;
+    }
+    .steer-hero-caption{
+        flex-direction: column-reverse;
+    }
+    .steer-caption{
+        padding: 1.5rem;
+    }
+
+    .steer-hero h1{
+        font-size: 2rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    .steer-image-wrapper{
+        display: flex;
+        min-height: 40vh;
+        align-items:flex-end;
+    }
+
+    .navbar-brand{
+        padding-left: 1rem;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1024px) {
+
+
+    .steer-hero{
+        min-height: 40vh;
+    }
+    .steer-caption{
+        display: flex;
+        min-height: 40vh;
+        align-items:center;
+    }
+    .steer-caption{
+        padding: 1.5rem;
+    }
+
+    .steer-hero h1{
+        font-size: 2rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    .steer-image-wrapper{
+        display: flex;
+        min-height: 40vh;
+        align-items:flex-end;
+    }
 }
 
 /* Company Logo */
@@ -75,6 +162,20 @@ body{
 }
 
 /* Benefits */
+
+.steer-company-modal img{
+    padding: 0.5rem;
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width:540px){
+    .steer-company-modal img{
+        padding: 0.5rem;
+        width: 80px;
+        height: auto;
+    }
+}
 
 .steer-heading{
     line-height: 2.5rem;
@@ -106,6 +207,12 @@ body{
 
 .steer-btn{
     width: 13rem;
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1.5rem;
+}
+
+.steer-btn-lg{
+    min-width: 13rem;
     font-size: 0.9rem !important;
     padding: 0.5rem 1.5rem;
 }
@@ -189,6 +296,10 @@ footer{
     font-weight: 300;
     padding: 1rem;
     color:white;
+}
+
+footer a{
+    text-decoration: none;
 }
 
 /* Popup */

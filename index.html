@@ -27,40 +27,31 @@
     <nav class="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.svg" alt="Steer Through Logo" width="150">
+                <img src="assets/images/logo.svg" alt="Steer Through Logo" width="200">
             </a>
         </div>
     </nav>
     <!-- Hero Section -->
     <section class="steer-hero">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row steer-hero-caption">
                 <div class="col-md-6 col-lg-6 col-12 steer-image-wrapper">
-                    <img src="assets/images/hand.webp" alt="Hero Image">
+                    <img src="assets/images/hand.webp" alt="Hero Image" class="mt-5">
                 </div>
-                <div class="col-md-6 col-lg-6 col-12">
-                    <div class="px-5">
+                <div class="col-md-6 col-lg-5 col-12 steer-caption">
+                    <div class="px-lg-5">
                         <h1>Grow your business with a reliable payment gateway</h1>
                     <p>Payment gateway services trusted by over 100,000 businesses</p>
-                    <div class="mt-5">
+                    <div class="mt-5 w-100">
                         <form action="">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6 col-12">
                                     <input type="text" class="form-control mb-3" placeholder="Your Name">
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-12">
-                                    <input type="text" class="form-control mb-3" placeholder="Email Address">
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-12">
-                                    <input type="text" class="form-control mb-3" placeholder="Mobile Number">
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-12">
-                                    <input type="text" class="form-control mb-3" placeholder="Company Name">
-                                </div>
-                            </div>
-                            
-                            <input type="submit" class="form-control bg-white mt-3">
+                                    <input type="text" class="form-control mb-3" placeholder="Phone Number">
+                            <input type="submit" class="form-control bg-white mt-5">
                         </form>
+                        <p class="text-light text-center"><i class="bi bi-shield-fill-check me-2"></i>Trusted by more than 10K people around the globe.</p>
+                        <div class="">
+                            <p class="steer-success mb-5 text-white w-100 text-center">Thank you for submitting your enquiry! One of our team members will be in touch with you within the next hour to answer your questions.</p>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -95,9 +86,9 @@
 
     <!-- Certification -->
     <section class="my-5 text-center container">
-        <img src="assets/images/pci.png" alt="PCI" width="150">
+        <img src="assets/images/pci.png" alt="PCI" width="100">
         &emsp;
-        <img src="assets/images/iso.jpg" alt="ISO" width="150">
+        <img src="assets/images/iso.jpg" alt="ISO" width="100">
     </section>
 
     <!-- Benefits -->
@@ -152,24 +143,56 @@
 
     <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content bg-primary">
         <div class="modal-body">
             <button type="button" class="steer-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-circle-fill"></i></button>
-            <h3 class="steer-subheading text-white text-center">Looking out for a free trial!</h3>
-            <div class="p-4">
+            <h3 class="steer-subheading text-white text-center mb-5">Looking out for a free trial!</h3>
+            <div class="px-lg-4">
                 <form action="">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-12">
                             <input type="text" class="form-control mb-3" placeholder="Your Name">
-                        
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12">
                             <input type="text" class="form-control mb-3" placeholder="Email Address">
-                        
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12">
                             <input type="text" class="form-control mb-3" placeholder="Mobile Number">
-                       
-                            <input type="text" class="form-control mb-3" placeholder="Company Name">                    
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12">
+                            <input type="text" class="form-control mb-3" placeholder="Company Name">
+                        </div>
+                    </div>                    
                     <input type="submit" class="form-control bg-white mt-3">
                 </form>
+                <div class="">
+                    <p class="steer-success mb-0 text-white">Thank you for submitting your enquiry! One of our team members will be in touch with you within the next hour to answer your questions.</p>
+                </div>
             </div>
             
+        </div>
+        <div class="modal-footer steer-company-modal bg-white">
+            <div class="row my-2 justify-content-center">
+                <div class="col-auto">
+                    <img src="assets/images/razorpay.svg" alt="Razorpay Logo">
+                </div>
+                <div class="col-auto">
+                    <img src="assets/images/ccavenue.png" alt="CC Avenue Logo">
+                </div>
+                <div class="col-auto">
+                    <img src="assets/images/billdesk.png" alt="Billdesk Logo">
+                </div>
+                <div class="col-auto">
+                    <img src="assets/images/mobikwik.png" alt="Mobikwik Logo">
+                </div>
+                <div class="col-auto">
+                    <img src="assets/images/freecharge.png" alt="Freecharge Logo">
+                </div>
+                <div class="col-auto">
+                    <img src="assets/images/zaakpay.png" alt="Zaakpay Logo">
+                </div>
+            </div>
         </div>
       </div>
     </div>
@@ -252,8 +275,27 @@
         </div>
     </section>
 
+    <div class="container text-center my-5">
+        <a class="btn btn-primary btn-sm steer-btn-lg" href="https://steerthrough.com/category/Payment-Gateways" target="_blank">All Payment Gateways Products</a>
+    </div>
+
     <footer>
-        <span>&#169; 2023 All rights reserved to Steer Through Innovations Private Limited.</span>
+        <div class="container">
+            <div class="row g-lg-5 g-3">
+                <div class="col-lg-3 col-md-3 col-12">
+                    <a href="https://steerthrough.com/privacy-policy" class="me-2 text-white" target="_blank">Privacy</a>
+                    <a href="https://steerthrough.com/cookie-policy" class="me-2 text-white" target="_blank">Cookies</a>
+                    <a href="https://steerthrough.com/disclaimer" class="me-2 text-white" target="_blank">Disclaimer</a>
+                    <a href="https://steerthrough.com/terms-of-use" class="me-2 text-white" target="_blank">Terms of Use</a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12">
+                    <span>&#169; 2023 All rights reserved to Steer Through Innovations Private Limited.</span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="assets/images/visa.webp" alt="" class="d-block m-auto w-100">
+                </div>
+            </div>
+        </div>
     </footer>
 
 
