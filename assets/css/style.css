@@ -49,6 +49,18 @@ body{
     width: 100%;
 }
 
+.steer-submit-btn{
+    width: 100%;
+    background: black;
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: none;
+    color: white;
+    font: 0.8rem;
+    padding:0.5rem 1rem;
+    width: 100%;
+}
+
 .steer-hero h1{
     color: white!important;
     font-weight: 700!important;
@@ -69,6 +81,17 @@ body{
 .steer-hero .bi-shield-fill-check{
     color: #06f506;
     font-size: 1rem;
+}
+
+.steer-green-btn,
+.steer-green-btn:hover{
+    background-color:#06f506;
+    border-color:#06f506;
+    color:black;
+}
+
+.steer-green{
+    color:#06f506;
 }
 
 .steer-response{
@@ -163,6 +186,10 @@ body{
 
 /* Benefits */
 
+.steer-benefits{
+    padding: 1rem;
+}
+
 .steer-company-modal img{
     padding: 0.5rem;
     width: 100px;
@@ -216,6 +243,23 @@ body{
     text-decoration: none;
     font-weight: 600;
 }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    list-style-position: outside !important;
+  }
+  li {
+    position: relative;
+   font-size: 0.9rem;
+   text-indent: 0rem;
+   list-style-position: outside !important;
+  }
+  li:before {
+    content: '\2713';
+    color: var(--theme-color); 
+    list-style-position: outside !important; 
+  }
 
 /* Social Appreciation */
 .steer-fun-fact-wrapper {
@@ -315,4 +359,25 @@ footer a{
     background:transparent;
     border:0;
     color:white;
+}
+
+.steer-p-logo{
+    display: flex;
+    background:white;
+    height: 16px;
+    width: 40px;
+    align-items:center;
+    justify-content: center;
+    margin: 0 0.2rem;
+}
+
+.steer-p-logo img{
+    height: 7px;
+}
+
+.steer-text-sm{
+    padding: 0 1rem;
+    font-size: 0.7rem;
+    margin-left: auto;
+    display: block;
 }
