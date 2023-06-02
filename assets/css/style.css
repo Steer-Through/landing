@@ -59,6 +59,7 @@ body{
     font: 0.8rem;
     padding:0.5rem 1rem;
     width: 100%;
+    font-weight: 700;
 }
 
 .steer-hero h1{
@@ -213,7 +214,7 @@ body{
 }
 
 .steer-icon{
-    font-size: 45px;
+    font-size: 40px;
     color: var(--theme-color);
 }
 
@@ -236,6 +237,7 @@ body{
     width: 13rem;
     font-size: 0.9rem !important;
     padding: 0.5rem 1.5rem;
+    font-weight: 700;
 }
 
 .steer-btn-lg{
@@ -374,4 +376,6 @@ footer a{
     font-size: 0.7rem;
     margin-left: auto;
     display: block;
+    color: grey;
+    font-weight: 300;
 }
